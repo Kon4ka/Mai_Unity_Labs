@@ -1,0 +1,74 @@
+# Этот файл .gitignore должен быть помещен в корень вашего проекта Unity
+# Получите последнюю версию с [1](https://stackoverflow.com/questions/42699844/what-does-your-gitignore-file-look-like-for-a-unity-project)
+
+# Игнорируем папки, которые создает Unity
+/ [Ll]ibrary/
+/ [Tt]emp/
+/ [Oo]bj/
+/ [Bb]uild/
+/ [Bb]uilds/
+/ [Ll]ogs/
+/ [Uu]ser [Ss]ettings/
+
+# Игнорируем файлы, которые генерирует Visual Studio
+/.vs/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.opendb
+*.VC.db
+
+# Игнорируем файлы, которые генерирует Unity при аварийном завершении работы
+sysinfo.txt
+
+
+# Игнорируем файлы, которые генерирует Unity при импорте ассетов
+*.meta
+
+
+# MemoryCaptures может оказаться слишком большим по размеру.
+# Они также могут содержать чрезвычайно конфиденциальные данные
+/[Mm]emoryCaptures/
+
+# Записи могут стать слишком большими по размеру
+/[Rr]ecordings/
+
+
+# Автоматически созданный плагин Jetbrains Rider
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+
+# Каталог кэша Gradle
+.gradle/
+
+# Автоматически сгенерированные решения VS/MD/Consulo и файлы проекта.
+ExportedObj/
+.consulo/
+
+# метафайлы, сгенерированные Unity3D
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Сборки
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Файл, сгенерированный Crashlytics
+crashlytics-build.properties
+
+# упакованных адресов
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Временные автоматически созданные ресурсы Android
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
